@@ -1,0 +1,175 @@
+.box1 {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  .form {
+    width: 58%;
+    margin: 0 auto;
+    form {
+      border: 1px solid rgba(48, 45, 45, 0.5);
+      padding: 4%;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      .container-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        .inner-box {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          .heading {
+            font-size: 21px;
+            font-weight: 400;
+            margin: 0;
+            margin-bottom: 3%;
+          }
+          .name {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: start;
+            margin-bottom: 17px;
+            .fname {
+              height: fit-content;
+              display: flex;
+              justify-content: flex-start;
+              margin-right: 4%;
+            }
+          }
+          .emailfield {
+            display: flex;
+            align-items: start;
+            justify-content: flex-start;
+            margin-bottom: 17px;
+            .MuiFormControl-root {
+              flex-grow: 1;
+            }
+          }
+          .password {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            margin-bottom: 12px;
+            .pass {
+              display: flex;
+              flex-direction: row;
+              justify-content: flex-start;
+              flex-grow: 1;
+              margin-right: 4%;
+            }
+            .MuiInputAdornment-root {
+              margin-top: 4%;
+            }
+          }
+          .eye {
+            margin-top: 4%;
+            margin-bottom: 5%;
+            opacity: 74%;
+          }
+          .button {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            .btn-login {
+              .login-btn {
+                color: #1a73e8;
+              }
+            }
+            .register-btn {
+              background-color: #1a73e8 !important;
+              color: white;
+            }
+          }
+        }
+        .container-image {
+          height: fit-content;
+          margin-left: 6%;
+          img {
+            width: 200px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.MuiTextField-root {
+  flex-grow: 1;
+}
+.MuiFormControl-root {
+  flex-grow: 1;
+}
+a {
+  text-decoration: none;
+}
+@media (max-width: 600px) {
+  .container-image {
+    display: none;
+  }
+  .box1 {
+    justify-content: flex-start;
+  }
+  .form {
+    width: 100% !important;
+    form {
+      border: none !important;
+    }
+  }
+  .fname {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+    margin-right: 0 !important;
+    margin-bottom: 9% !important;
+  }
+  .inner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    .heading {
+      margin-bottom: 27px !important;
+      font-size: 28px !important;
+    }
+  }
+  .emailfield {
+    flex-grow: 1;
+    margin-bottom: 9% !important;
+  }
+  .pass {
+    margin-right: 0 !important;
+    margin-bottom: 9% !important;
+  }
+  .MuiButtonBase-root {
+    margin-top: 11px;
+  }
+  .btn-login {
+    margin-right: 15px;
+  }
+  .password {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 5% !important;
+  }
+  .MuiFormControlLabel-root {
+    margin-bottom: 10%;
+  }
+  .name {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: start;
+    flex-wrap: wrap;
+    margin-bottom: 9% !important;
+  }
+}

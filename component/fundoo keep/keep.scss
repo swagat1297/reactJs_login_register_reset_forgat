@@ -1,0 +1,16 @@
+.MuiAppBar-colorPrimary{
+    color: rgb(0, 0, 0) !important;
+    background-color: #ffffff !important;
+}
+.drawer{
+    .MuiButtonBase-root{
+        border-radius: 0px 33px 33px 0px !important;
+    }
+}
+.round-corner{
+    background-color: rebeccapurple !important;
+    border-radius: 0px 33px 33px 0px !important
+}
+.searchbar{
+    margin-left: 22%;
+}
